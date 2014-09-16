@@ -1,4 +1,7 @@
 App4::Application.routes.draw do
+  get "pages_1/home"
+  get "pages_1/about"
+  get "pages_1/help"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
