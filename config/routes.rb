@@ -1,4 +1,8 @@
 App4::Application.routes.draw do
+  get "user/new"
+  get "static_pages/home"
+  get "static_pages/about"
+  get "static_pages/help"
   get "pages_1/home"
   get "pages_1/about"
   get "pages_1/help"
