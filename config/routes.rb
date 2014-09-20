@@ -1,4 +1,5 @@
 App4::Application.routes.draw do
+  resources :users
   get "users/new"
   get "user/new"
   get "static_pages/home"
